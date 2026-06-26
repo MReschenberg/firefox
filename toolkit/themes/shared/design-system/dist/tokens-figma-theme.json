@@ -854,6 +854,16 @@
     "dark": "rgb(82, 82, 94)",
     "forcedColors": "transparent"
   },
+  "panel/box/shadow": {
+    "light": "0 0 {Theme$panel/box/shadow/margin} hsla(0, 0%, 0%, 0.2)",
+    "dark": "0 0 {Theme$panel/box/shadow/margin} hsla(0, 0%, 0%, 0.2)",
+    "forcedColors": "none"
+  },
+  "panel/box/shadow/margin": {
+    "light": 4,
+    "dark": 4,
+    "forcedColors": 0
+  },
   "panel/text/color": {
     "light": "{Colors$color/black}",
     "dark": "rgb(251, 251, 254)",

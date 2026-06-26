@@ -34,10 +34,16 @@
   "box": {
     "shadow": {
       "@base": {
-        "value": "0 0 {panel.box.shadow.margin} hsla(0, 0%, 0%, 0.2)"
+        "value": {
+          "default": "0 0 {panel.box.shadow.margin} hsla(0, 0%, 0%, 0.2)",
+          "forcedColors": "none"
+        }
       },
       "margin": {
-        "value": "4px"
+        "value": {
+          "default": "4px",
+          "forcedColors": "0px"
+        }
       }
     }
   },

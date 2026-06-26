@@ -1367,7 +1367,10 @@ export const tokensTable = {
     { value: "var(--box-shadow-level-2)", name: "--card-box-shadow" },
     { value: "var(--box-shadow-level-4)", name: "--card-box-shadow-hover" },
     {
-      value: "0 0 var(--panel-box-shadow-margin) hsla(0, 0%, 0%, 0.2)",
+      value: {
+        default: "0 0 var(--panel-box-shadow-margin) hsla(0, 0%, 0%, 0.2)",
+        forcedColors: "none",
+      },
       name: "--panel-box-shadow",
     },
     { value: "var(--box-shadow-level-3)", name: "--popup-box-shadow" },
@@ -1937,7 +1940,10 @@ export const tokensTable = {
     },
     { value: "8px", name: "--panel-menuitem-padding-block" },
     { value: "8px", name: "--panel-menuitem-padding-inline" },
-    { value: "4px", name: "--panel-box-shadow-margin" },
+    {
+      value: { default: "4px", forcedColors: "0px" },
+      name: "--panel-box-shadow-margin",
+    },
     { value: "16px", name: "--panel-padding" },
     { value: "4px", name: "--panel-padding-block" },
     { value: "8px", name: "--toolbar-padding-inline" },
@@ -4303,8 +4309,11 @@ export const variableLookupTable = {
     default: "light-dark(rgb(240, 240, 244), rgb(82, 82, 94))",
   },
   "panel-border-radius": "var(--border-radius-medium)",
-  "panel-box-shadow": "0 0 var(--panel-box-shadow-margin) hsla(0, 0%, 0%, 0.2)",
-  "panel-box-shadow-margin": "4px",
+  "panel-box-shadow": {
+    default: "0 0 var(--panel-box-shadow-margin) hsla(0, 0%, 0%, 0.2)",
+    forcedColors: "none",
+  },
+  "panel-box-shadow-margin": { default: "4px", forcedColors: "0px" },
   "panel-padding": "16px",
   "panel-padding-block": "4px",
   "panel-text-color": {

@@ -707,6 +707,8 @@
 
       /** panel **/
       --panel-background-color: Menu;
+      --panel-box-shadow: none;
+      --panel-box-shadow-margin: 0px;
       --panel-separator-color: var(--border-color);
       --panel-text-color: MenuText;
 

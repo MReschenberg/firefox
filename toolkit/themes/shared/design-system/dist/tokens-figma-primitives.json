@@ -148,8 +148,6 @@
   "panel-menuitem/padding/block": 8,
   "panel-menuitem/padding/inline": 8,
   "panel/border/radius": "{Primitives$border/radius/medium}",
-  "panel/box/shadow": "0 0 {Primitives$panel/box/shadow/margin} hsla(0, 0%, 0%, 0.2)",
-  "panel/box/shadow/margin": 4,
   "panel/padding": 16,
   "panel/padding/block": 4,
   "panel/width": "initial",

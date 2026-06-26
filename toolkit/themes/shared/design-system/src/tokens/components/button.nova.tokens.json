@@ -64,7 +64,8 @@
         "@base": {
           "value": {
             "nativeTheme": "transparent",
-            "default": "{button.background.color.@base}"
+            "default": "{button.background.color.@base}",
+            "forcedColors": "ButtonFace"
           }
         },
         "disabled": {

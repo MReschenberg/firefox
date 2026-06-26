@@ -112,6 +112,7 @@
         "@base": {
           "value": {
             "default": "transparent",
+            "forcedColors": "ButtonFace",
             "brand": {
               "forcedColors": "{button.background.color.@base}"
             },

@@ -254,6 +254,7 @@ export const tokensTable = {
     {
       value: {
         default: "transparent",
+        forcedColors: "ButtonFace",
         brand: { forcedColors: "var(--button-background-color)" },
         nativeTheme: "transparent",
         platform: { default: "transparent", browserTheme: {} },
@@ -3819,6 +3820,7 @@ export const variableLookupTable = {
     "var(--button-background-color-destructive-active)",
   "button-background-color-ghost": {
     default: "transparent",
+    forcedColors: "ButtonFace",
     brand: { forcedColors: "var(--button-background-color)" },
     nativeTheme: "transparent",
     platform: { default: "transparent", browserTheme: {} },

@@ -167,7 +167,7 @@
   "button/background/color/ghost": {
     "light": "{Theme$button/background/color}",
     "dark": "{Theme$button/background/color}",
-    "forcedColors": "{Theme$button/background/color}"
+    "forcedColors": "{HCM Theme$ButtonFace}"
   },
   "button/background/color/ghost/disabled": {
     "light": "{Theme$button/background/color/ghost}",
